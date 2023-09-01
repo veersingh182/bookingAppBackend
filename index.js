@@ -13,7 +13,7 @@ app.use(cors());
 app.use(cookieParser());
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.use(express.json());
 
 const connect = async () => {
